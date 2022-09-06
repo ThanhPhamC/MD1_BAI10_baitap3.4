@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Title$</title>
+</head>
+<body>
+<script>
+    let a=0;
+    let b=1;
+    let c;
+    let d=prompt("nhap so luong so muon hien thi");
+    for(let i=0; i<d ; i++  ){
+        c=a+b;
+        document.write(a+"<br>")
+        a=b;
+        b=c;
+        if (c%5==0){
+            alert("so chia het cho 5 la "+c)
+            break;
+        }
+    }
+</script>
+</body>
+</html>
